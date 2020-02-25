@@ -9,13 +9,36 @@
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/signin.css">
     <script src="lib/jquery-3.4.1.min.js"></script>
 
     <title>_</title>
 </head>
 <body>
-  <div id="content" class="bkg-img">
+  <div id="content" class="signin__content bkg-img">
+    <div class="signin__cont">
+      <div class="signin__top">
+        <img class="signin__logo" src="img/logo@2x.png"/>
+        <div class="signin__title">
+          <div>ФОТОСТУДИЯ</div> <div>ФОКУС</div>
+        </div>
+      </div>
 
+      <div class="signin__form">
+        <div class="signin__form__switch">
+          <div class="signin__form__switch__item active">ВХОД</div>
+          <div class="signin__form__switch__item">РЕГИСТРАЦИЯ</div>
+        </div>
+        <form action="##">
+            <label class="signin__form__input-label" for="input-name">Название/номер группы</label>
+            <input type="text" id="input-name"/>
+            <label class="signin__form__input-label" for="input-pwd">Пароль</label>
+            <input type="text" id="input-pwd"/>
+            <input type="submit" value="ВОЙТИ"/>
+        </form>
+      </div>
+      <div class="signin__form__message bkg-img"></div>
+    </div>
   </div>
 </body>
 </html>
