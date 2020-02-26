@@ -1,16 +1,16 @@
-.signin__content {
+.login__content {
   display: flex;
 }
-.signin__top {
+.login__top {
   height: 150px;
   margin-bottom: 30px;
 }
-.signin__logo {
+.login__logo {
   width: 120px;
   height: 150px;
   float: left;
 }
-.signin__title {
+.login__title {
   color: #FFF;
   font-weight: 800;
   margin-left: 120px;
@@ -20,30 +20,30 @@
   align-items: center;
   height: 150px;
 }
-.signin__title > *:first-child {
+.login__title > *:first-child {
   font-size: 37px;
 }
-.signin__title > *:last-child {
+.login__title > *:last-child {
   font-size: 73px;
 }
-.signin__cont {
+.login__cont {
   margin: auto;
   width: 450px;
   padding: 10px;
   position: relative;
 }
-.signin__form {
+.login__form {
   background-color: #FFF;
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 0 2px 0 rgba(0,0,0,0.2);
 }
-.signin__form__switch {
+.login__form__switch {
   height: 50px;
   display: flex;
   margin-bottom: 10px;
 }
-.signin__form__switch__item {
+.login__form__switch__item {
   width: 50%;
   text-align: center;
   font-weight: 800;
@@ -51,20 +51,20 @@
   cursor: pointer;
   line-height: 50px;
 }
-.signin__form__switch__item.active {
+.login__form__switch__item.active {
   color: #2458A4;
 }
-.signin__form input {
+.login__form input {
   width: 100%;
   padding: 10px;
   border: solid 1px #C9BBC8;
   border-radius: 5px;
   height: 42px;
 }
-.signin__form input:not([type="submit"]) {
+.login__form input:not([type="submit"]) {
   margin: 5px 0 20px 0;
 }
-.signin__form input[type="submit"] {
+.login__form input[type="submit"] {
   background-color: #2458A4;
   color: #FFF;
   font-weight: 800;
@@ -72,13 +72,13 @@
   border: none;
   cursor: pointer;
 }
-.signin__form__input-label {
+.login__form__input-label {
   color: #747474;
 }
-.signin__form__message.show {
+.login__form__message.show {
   display: block;
 }
-.signin__form__message {
+.login__form__message {
   background-color: #DDE7EE;
   min-height: 60px;
   position: absolute;
@@ -88,11 +88,11 @@
   padding: 15px 30px 15px 55px;
   display: none;
 }
-.signin__form__message.error{
+.login__form__message.error{
   color: #AE0A0A;
 }
-.signin__form__message.error:before,
-.signin__form__message.ok:before {
+.login__form__message.error:before,
+.login__form__message.ok:before {
   content: '';
   width: 20px;
   height: 20px;
@@ -100,9 +100,9 @@
   left: 30px;
   top: 20px;
 }
-.signin__form__message.error:before {
+.login__form__message.error:before {
   background-image: url('../img/message-error.svg');
 }
-.signin__form__message.ok:before {
+.login__form__message.ok:before {
   background-image: url('../img/message-ok.svg');
 }
