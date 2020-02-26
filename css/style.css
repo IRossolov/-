@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+  min-height: 100%;
+}
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  position: relative;
 }
 a,
 a:hover {
@@ -13,6 +20,7 @@ button {
 }
 * {
   box-sizing: border-box;
+  font-family: 'Roboto';
 }
 
 .bkg-img,
@@ -25,6 +33,7 @@ button {
 
 body {
   background-image: url('../img/background@2x.png');
+  background-size: cover !important;
 }
 
 #header {
@@ -63,12 +72,13 @@ body {
   height: calc(100% - 20px);
   text-align: center;
   margin-left: 10px;
+  font-weight: 800;
 }
 .header__logo__title > *:first-child {
-  font-size: 23px;
+  font-size: 16px;
 }
 .header__logo__title > *:last-child {
-  font-size: 45px;
+  font-size: 32px;
 }
 .header__menu {
   margin-left: 50px;
@@ -101,10 +111,9 @@ body {
 #content {
   max-width: 1200px;
   min-height: 100vh;
-  background-size: cover;
   padding-bottom: 40px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 20px 40px 20px;
 }
 
 #footer {
@@ -117,6 +126,32 @@ body {
   left: 0;
   right: 0;
   color: #202020;
+}
+
+.pages {
+  margin-bottom: 30px;
+  display: flex;
+}
+.pages__item {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 800;
+  user-select: none;
+}
+.pages__item.active {
+  background-color: #2458A4;
+  color: #FFF;
+}
+.pages__item__next {
+  background-image: url('../img/arrow-right.svg');
+  width: 30px;
+  height: 30px;
+  margin: 10px;
 }
 
 @media screen and (max-width: 1000px) {

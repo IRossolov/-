@@ -1,0 +1,138 @@
+.main__items {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  width: calc(100% + 20px);
+}
+.main__item {
+  min-width: 250px;
+  width: calc((100% - 80px) / 4);
+  background-color: #FFF;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+.main__item__photo {
+  width: 100%;
+  height: 230px;
+}
+.main__item__title {
+  color: #202020;
+  font-size: 22px;
+  margin: 10px 0;
+}
+.main__item__format {
+  height: 70px;
+}
+.main__item__format__select {
+  position: relative;
+  cursor: pointer;
+}
+.main__item__format__select > select {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  box-shadow: none;
+  border: solid 1px #C9BBC8;
+  border-radius: 5px;
+  color: #2458A4;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none !important;
+  cursor: pointer;
+}
+.main__item__format__select:after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  border: solid 8px transparent;
+  border-top: solid 8px #000;
+  position: absolute;
+  right: 8px;
+  top: 16px;
+}
+.main__item__format__label {
+  color: #747474;
+  margin-bottom: 5px;
+}
+.main__item__cont {
+  height: 40px;
+  line-height: 40px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.main__item__price {
+  color: #2458A4;
+  font-size: 25px;
+  font-weight: 800;
+}
+.main__item__quantity {
+  width: 80px;
+  height: 40px;
+  border: solid 1px #C9BBC8;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+}
+.main__item__quantity * {
+  color: #2458A4;
+  font-weight: 800;
+}
+.main__item__quantity__value {
+  width: calc(100% - 20px);
+  padding: 0 15px;
+  border: none;
+}
+.main__item__quantity__controls {
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.main__item__quantity__controls > button {
+  background-color: #FFF;
+  border-left: solid 1px #C9BBC8;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  padding: 0;
+}
+.main__item__quantity__controls > button:first-child {
+  border-bottom: solid 1px #C9BBC8;
+}
+.main__item__button {
+  background-color: #2458A4;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  font-weight: 800;
+  color: #FFF;
+  border-radius: 5px;
+}
+.main__item__button.done {
+  background-color: #2C9408;
+}
+.main__item__button.done:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  background-image: url('../img/ok.svg');
+}
+
+@media screen and (max-width: 1000px) {
+  .main__item {
+    width: calc((100% - 60px) / 3);
+  }
+}
+@media screen and (max-width: 600px) {
+  .main__item {
+    width: 100%;
+  }
+}
