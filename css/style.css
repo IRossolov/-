@@ -12,7 +12,6 @@ body {
 a,
 a:hover {
   text-decoration: none;
-  color: #202020;
 }
 button {
   border: none;
@@ -21,6 +20,7 @@ button {
 * {
   box-sizing: border-box;
   font-family: 'Roboto';
+  color: #202020;
 }
 
 .bkg-img,
@@ -154,11 +154,42 @@ body {
   margin: 10px;
 }
 
+.content__navigation {
+  margin: 20px 0;
+}
+.content__navigation > a {
+  color: #747474 !important;
+}
+.content__navigation > a.active {
+  color: #202020 !important;
+}
+
+.items-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 20px);
+}
+.items-grid__item {
+  min-width: 250px;
+  width: calc((100% - 80px) / 4);
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
 @media screen and (max-width: 1000px) {
   .header__menu__item {
     display: none;
   }
   .header__menu__item-img.menu {
     display: block;
+  }
+
+  .items-grid__item {
+    width: calc((100% - 60px) / 3);
+  }
+}
+@media screen and (max-width: 600px) {
+  .items-grid__item {
+    width: 100%;
   }
 }
