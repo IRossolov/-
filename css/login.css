@@ -53,27 +53,6 @@
 .login__form__switch__item.active {
   color: #2458A4;
 }
-.login__form input {
-  width: 100%;
-  padding: 10px;
-  border: solid 1px #C9BBC8;
-  border-radius: 5px;
-  height: 42px;
-}
-.login__form input:not([type="submit"]) {
-  margin: 5px 0 20px 0;
-}
-.login__form input[type="submit"] {
-  background-color: #2458A4;
-  color: #FFF;
-  font-weight: 800;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-.login__form__input-label {
-  color: #747474;
-}
 .login__form__message.show {
   display: block;
 }

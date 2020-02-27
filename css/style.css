@@ -245,6 +245,28 @@ body {
   margin-bottom: 5px;
 }
 
+.input {
+  width: 100%;
+  padding: 10px;
+  border: solid 1px #C9BBC8;
+  border-radius: 5px;
+  height: 42px;
+}
+.input:not([type="submit"]) {
+  margin: 5px 0 20px 0;
+}
+.input[type="submit"] {
+  background-color: #2458A4;
+  color: #FFF;
+  font-weight: 800;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.input__label {
+  color: #747474;
+}
+
 @media screen and (max-width: 1000px) {
   .header__menu__item {
     display: none;
