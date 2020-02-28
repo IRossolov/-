@@ -180,7 +180,7 @@ body {
   border: solid 1px #C9BBC8;
   border-radius: 5px;
   overflow: hidden;
-  display: flex;
+  display: inline-flex;
 }
 .number-select * {
   color: #2458A4;
@@ -255,7 +255,8 @@ body {
 .input:not([type="submit"]) {
   margin: 5px 0 20px 0;
 }
-.input[type="submit"] {
+.input[type="submit"],
+button.input {
   background-color: #2458A4;
   color: #FFF;
   font-weight: 800;

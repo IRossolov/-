@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/about.css">
     <script src="lib/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="lib/slick/slick.min.js"></script>
 
     <title>О компании</title>
 </head>
@@ -35,9 +36,143 @@
       </div>
     </div>
   </div>
-  <div id="content" class="main__content">
+  <div id="content" class="about__content">
+    <div class="content__navigation">
+      <a href="main">Главная</a>
+      <span> / </span>
+      <a href="about" class="active">О фирме</a>
+    </div>
 
+    <h1 class="content__title">О фирме</h1>
+
+    <div class="about__info">
+      <img class="about__info__img" src="img/no-photo.png"/>
+      <div class="about__info__cont">
+        <h3>Заголовок</h3>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
+      </div>
+    </div>
+    <div class="about__facts">
+      <div class="about__facts__item">
+        <img src="img/star.svg"/>
+        <h4>Что-то о компании</h4>
+        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+      </div>
+      <div class="about__facts__item">
+        <img src="img/star.svg"/>
+        <h4>Что-то о компании</h4>
+        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+      </div>
+      <div class="about__facts__item">
+        <img src="img/star.svg"/>
+        <h4>Что-то о компании</h4>
+        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+      </div>
+      <div class="about__facts__item">
+        <img src="img/star.svg"/>
+        <h4>Что-то о компании</h4>
+        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+      </div>
+    </div>
+
+    <div class="about__photos">
+      <img src="img/no-photo.png"/>
+    </div>
+
+    <div class="about__reviews">
+      <h2>Отзывы о компании</h2>
+
+      <div class="about__reviews__items">
+        <div class="about__reviews__item">
+          <div class="about__reviews__item__cont">
+            <div class="about__reviews__item__user">
+              <img src="img/no-photo.png"/>
+              <h3>Имя Пользователя</h3>
+              <div>02.02.2020</div>
+            </div>
+            <div class="about__reviews__item__rate">
+              <img src="img/rate-star.svg"/><img src="img/rate-star.svg"/><img src="img/rate-star.svg"/><img src="img/rate-star.svg"/><img src="img/rate-star.svg"/>
+            </div>
+          </div>
+          <div class="about__reviews__item__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+        </div>
+        <div class="about__reviews__item">
+          <div class="about__reviews__item__cont">
+            <div class="about__reviews__item__user">
+              <img src="img/no-photo.png"/>
+              <h3>Имя Пользователя</h3>
+              <div>02.02.2020</div>
+            </div>
+            <div class="about__reviews__item__rate">
+              <img src="img/rate-star.svg"/><img src="img/rate-star.svg"/><img src="img/rate-star.svg"/><img src="img/rate-star.svg"/><img src="img/rate-star.svg"/>
+            </div>
+          </div>
+          <div class="about__reviews__item__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+        </div>
+        <div class="about__reviews__item">
+          <div class="about__reviews__item__cont">
+            <div class="about__reviews__item__user">
+              <img src="img/no-photo.png"/>
+              <h3>Имя Пользователя</h3>
+              <div>02.02.2020</div>
+            </div>
+            <div class="about__reviews__item__rate">
+              <img src="img/rate-star.svg"/><img src="img/rate-star.svg"/><img src="img/rate-star.svg"/><img src="img/rate-star.svg"/><img src="img/rate-star.svg"/>
+            </div>
+          </div>
+          <div class="about__reviews__item__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__certs">
+      <h2>Наши сертификаты</h2>
+
+      <div class="about__certs__items">
+        <div class="about__certs__item"><a href="img/stub/doc.png"><img src="img/stub/doc.png"/></a></div>
+        <div class="about__certs__item"><a href="img/stub/doc.png"><img src="img/stub/doc.png"/></a></div>
+        <div class="about__certs__item"><a href="img/stub/doc.png"><img src="img/stub/doc.png"/></a></div>
+      </div>
+    </div>
   </div>
   <div id="footer">2017-2020 © «Фотостудия Фокус»</div>
+
+  <script>
+    var ph = $('.about__photos'), reviews = $('.about__reviews__items'), certs = $('.about__certs__items');
+    ph.slick({
+      infinity: true,
+      slidesToShow: 1,
+      initialSlide: 0,
+      //variableWidth: true,
+      draggable: false,
+      prevArrow: '<div class="about__prev bkg-img"></div>',
+      nextArrow: '<div class="about__next bkg-img"></div>'
+    });
+    reviews.slick({
+      infinity: true,
+      slidesToShow: 2,
+      initialSlide: 0,
+      //variableWidth: true,
+      draggable: false,
+      prevArrow: '<div class="about__prev bkg-img"></div>',
+      nextArrow: '<div class="about__next bkg-img"></div>',
+      responsive: [{
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 1
+        }
+      }]
+    });
+    certs.slick({
+      infinity: true,
+      slidesToShow: 4,
+      initialSlide: 0,
+      //variableWidth: true,
+      draggable: false,
+      prevArrow: '<div class="about__prev bkg-img"></div>',
+      nextArrow: '<div class="about__next bkg-img"></div>'
+    });
+  </script>
 </body>
 </html>

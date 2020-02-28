@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="Keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/basket.css">
+    <script src="lib/jquery-3.4.1.min.js"></script>
+
+    <title>Корзина</title>
+</head>
+<body class="bkg-img">
+  <div id="header">
+    <div id="header__cont">
+      <a class="header__logo" href="main">
+        <img class="header__logo__img" src="img/logo@2x.png"/>
+        <div class="header__logo__title">
+          <div>ФОТОСТУДИЯ</div> <div>ФОКУС</div>
+        </div>
+      </a>
+      <div class="header__menu">
+        <a class="header__menu__item" href="docs">Документы</a>
+        <a class="header__menu__item" href="prices">Цены и условия</a>
+        <a class="header__menu__item" href="faq">Помощь и FAQ</a>
+        <a class="header__menu__item" href="about">О фирме</a>
+        <a class="header__menu__item" href="contacts">Контакты</a>
+        <a class="header__menu__item-img bkg-img person" href="##"></a>
+        <a class="header__menu__item-img bkg-img basket" href="##"></a>
+        <a class="header__menu__item-img bkg-img menu" href="##"></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="content" class="basket__content">
+    <div class="content__navigation">
+      <a href="main">Главная</a>
+      <span> / </span>
+      <a href="basket" class="active">Корзина</a>
+    </div>
+
+    <h1 class="content__title">Корзина</h1>
+
+
+      <div class="basket__table">
+      <table>
+        <thead>
+          <tr class="basket__table__head">
+            <td></td><td>Фото</td><td>Товар</td><td>Формат</td><td>Цена</td><td>Количество</td><td>Итого</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="basket__table__item">
+            <td><div class="basket__table__item__delete bkg-img"></div></td>
+            <td><img src="img/no-photo.png"/></td>
+            <td>Название товара</td>
+            <td>А4</td>
+            <td>1 800 ₽</td>
+            <td>
+              <div class="number-select">
+                <input class="number-select__value" value="1"/>
+                <div class="number-select__controls">
+                  <button>+</button>
+                  <button>-</button>
+                </div>
+              </div>
+            </td>
+            <td>1 800 ₽</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="basket__total"><div>ИТОГ:</div><div>6 200 ₽</div></div>
+    </div>
+      <button class="basket__button input">ОФОРМИТЬ ЗАКАЗ</button>
+  </div>
+
+  <div id="footer">2017-2020 © «Фотостудия Фокус»</div>
+</body>
+</html>
