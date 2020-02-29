@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="Keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/order.css">
+    <script src="lib/jquery-3.4.1.min.js"></script>
+
+    <title>Заказ</title>
+</head>
+<body class="bkg-img">
+  <div id="header">
+    <div id="header__cont">
+      <a class="header__logo" href="main">
+        <img class="header__logo__img" src="img/logo@2x.png"/>
+        <div class="header__logo__title">
+          <div>ФОТОСТУДИЯ</div> <div>ФОКУС</div>
+        </div>
+      </a>
+      <div class="header__menu">
+        <a class="header__menu__item" href="docs">Документы</a>
+        <a class="header__menu__item" href="prices">Цены и условия</a>
+        <a class="header__menu__item" href="faq">Помощь и FAQ</a>
+        <a class="header__menu__item" href="about">О фирме</a>
+        <a class="header__menu__item" href="contacts">Контакты</a>
+        <a class="header__menu__item-img bkg-img person" href="##"></a>
+        <a class="header__menu__item-img bkg-img basket" href="##"></a>
+        <a class="header__menu__item-img bkg-img menu" href="##"></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="content" class="order__content">
+    <div class="content__navigation">
+      <a href="main">Главная</a>
+      <span> / </span>
+      <a href="basket">Корзина</a>
+      <span> / </span>
+      <a href="order" class="active">Оформление заказа</a>
+    </div>
+
+    <h1 class="content__title">Оформление заказа</h1>
+
+    <form class="order__form">
+      <div class="order__form__cont">
+        <div>
+          <label class="input__label" for="input-surname">Фамилия</label>
+          <input type="text" id="input-surname" class="input"/>
+        </div>
+        <div>
+          <label class="input__label" for="input-name">Имя</label>
+          <input type="text" id="input-name" class="input"/>
+        </div>
+        <div>
+          <label class="input__label" for="input-patr">Отчество</label>
+          <input type="text" id="input-patr" class="input"/>
+        </div>
+        <div>
+          <label class="input__label" for="input-number">№ учреждения</label>
+          <input type="text" id="input-number" class="input"/>
+        </div>
+        <div>
+          <label class="input__label" for="input-phone">Телефон</label>
+          <input type="text" id="input-phone" class="input"/>
+        </div>
+        <div>
+          <label class="input__label" for="input-email">Электронная почта</label>
+          <input type="text" id="input-email" class="input"/>
+        </div>
+        <div>
+          <label class="input__label" for="input-pwd">Пароль</label>
+          <input type="text" id="input-pwd" class="input"/>
+        </div>
+        <div>
+          <label class="input__label" for="input-pwd-repeat">Повторите пароль</label>
+          <input type="text" id="input-pwd-repeat" class="input"/>
+        </div>
+        <div>
+          <input type="checkbox" id="input-agreement"/>
+          <label class="input__label" for="input-agreement">Я даю согласие на обработку персональных данных</label>
+        </div>
+      </div>
+
+      <div class="order__form__bottom">
+        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+        <input type="submit" class="order__form__submit input" value="ОФОРМИТЬ ЗАКАЗ"/>
+      </div>
+    </form>
+
+  </div>
+  <div id="footer">2017-2020 © «Фотостудия Фокус»</div>
+</body>
+</html>

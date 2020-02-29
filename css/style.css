@@ -243,6 +243,7 @@ body {
 .custom-select__label {
   color: #747474;
   margin-bottom: 5px;
+  height: 22px;
 }
 
 .input {
