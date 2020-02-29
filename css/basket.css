@@ -5,19 +5,23 @@
   margin-bottom: 30px;
   overflow: hidden;
 }
-.basket__table > table {
+.basket__table__cont {
+  overflow-x: auto;
+}
+.basket__table__cont > table {
   width: 100%;
   border-collapse: collapse;
   text-align: center;
 }
 .basket__table td {
   border: solid 1px #FFF;
+  white-space: nowrap;
 }
 .basket__table__head td {
   padding: 5px;
 }
 .basket__table__item td {
-  padding: 10px;
+  padding: 10px 30px;
   color: #2458A4;
   font-weight: 800;
 }
@@ -54,4 +58,16 @@
   color: #2458A4 !important;
   max-width: 250px;
   float: right;
+}
+
+@media screen and (max-width: 1000px) {
+  .basket__button {
+    width: 100%;
+    max-width: 100%;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
 }
