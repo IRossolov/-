@@ -265,8 +265,28 @@ button.input {
   border: none;
   cursor: pointer;
 }
+.input[type="submit"].alt-color,
+button.input.alt-color {
+  background-color: #FFF;
+  color: #2458A4;
+}
 .input__label {
   color: #747474;
+}
+
+.table {
+  width: 100%;
+  padding: 20px;
+  border-collapse: collapse;
+}
+.table td {
+  border: solid 1px #FFF;
+}
+.table > thead td {
+  padding: 5px;
+}
+.table > tbody td {
+  padding: 10px 30px;
 }
 
 @media screen and (max-width: 1000px) {
