@@ -78,6 +78,8 @@
 
     <div class="about__photos">
       <img src="img/no-photo.png"/>
+      <img src="img/no-photo.png"/>
+      <img src="img/no-photo.png"/>
     </div>
 
     <div class="about__reviews">
@@ -146,8 +148,8 @@
       initialSlide: 0,
       //variableWidth: true,
       draggable: false,
-      prevArrow: '<div class="about__prev bkg-img"></div>',
-      nextArrow: '<div class="about__next bkg-img"></div>'
+      prevArrow: '<div class="about__prev"><div class="bkg-img"></div></div>',
+      nextArrow: '<div class="about__next"><div class="bkg-img"></div></div>'
     });
     reviews.slick({
       infinity: true,
@@ -155,8 +157,8 @@
       initialSlide: 0,
       //variableWidth: true,
       draggable: false,
-      prevArrow: '<div class="about__prev bkg-img"></div>',
-      nextArrow: '<div class="about__next bkg-img"></div>',
+      prevArrow: '<div class="about__prev"><div class="bkg-img"></div></div>',
+      nextArrow: '<div class="about__next"><div class="bkg-img"></div></div>',
       responsive: [{
         breakpoint: 1000,
         settings: {
@@ -170,8 +172,14 @@
       initialSlide: 0,
       //variableWidth: true,
       draggable: false,
-      prevArrow: '<div class="about__prev bkg-img"></div>',
-      nextArrow: '<div class="about__next bkg-img"></div>'
+      prevArrow: '<div class="about__prev bkg-img"><div class="bkg-img"></div></div>',
+      nextArrow: '<div class="about__next bkg-img"><div class="bkg-img"></div></div>',
+      responsive: [{
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 1
+        }
+      }]
     });
   </script>
 </body>
