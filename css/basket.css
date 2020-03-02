@@ -14,7 +14,8 @@
 .basket__table td {
   white-space: nowrap;
 }
-.basket__table__item td {
+.basket__table__item td,
+.basket__table__item td a {
   color: #2458A4;
   font-weight: 800;
 }

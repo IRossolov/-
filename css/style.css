@@ -228,6 +228,7 @@ body {
   appearance: none;
   outline: none !important;
   cursor: pointer;
+  padding: 8px;
 }
 .custom-select__select:after {
   content: '';
